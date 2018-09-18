@@ -1,10 +1,18 @@
-body {background-color: black;
+body {
+  margin: 40px 40px;
+  /background-image: url(http://www.digitalthink.ca/wp-content/uploads/2013/10/subtle-pattern-9.png);
 }
 
-.box{background-color: red;
-  width:50px;
-  height: 50px;
-  padding:50px;
-  border: 12px solid white;
-  margin: auto;
+div.title {
+  color: #2a7b89;
+  border-bottom: 2px solid #2a7b89;
+  padding: 0;
+}
+
+.work-exp {
+  margin-top: 30px;
+}
+
+.timeframe {
+  float: right;
 }
